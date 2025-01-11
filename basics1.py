@@ -39,4 +39,5 @@ print(list1.count(7))
 l1=sorted(list1)
 print(l1)
 l2=sorted(list1,reverse=True)
+print(l2)
 
