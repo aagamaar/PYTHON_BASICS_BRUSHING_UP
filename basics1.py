@@ -38,9 +38,15 @@ print(list1.count(7))
 #sorted()
 l1=sorted(list1)
 print(l1)
+#[1, 2, 3, 5, 6, 7, 8, 9, 10]
 l2=sorted(list1,reverse=True)
 print(l2)
+#[10, 9, 8, 7, 6, 5, 3, 2, 1]
 
 #sort()
-
-
+list1.sort(reverse=False)
+print(list1)
+#[1, 2, 3, 5, 6, 7, 8, 9, 10]
+list1.sort(reverse=True)
+print(list1)
+#[10, 9, 8, 7, 6, 5, 3, 2, 1]
