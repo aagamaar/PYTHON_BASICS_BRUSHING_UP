@@ -41,3 +41,6 @@ print(l1)
 l2=sorted(list1,reverse=True)
 print(l2)
 
+#sort()
+
+
