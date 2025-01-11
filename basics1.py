@@ -49,3 +49,8 @@ print(list1)
 list1.sort(reverse=True)
 print(list1)
 #[10, 9, 8, 7, 6, 5, 3, 2, 1]
+
+#copy()
+list2=list1.copy()
+print(list2)
+#[10, 9, 8, 7, 6, 5, 3, 2, 1]
