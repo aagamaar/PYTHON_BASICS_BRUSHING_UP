@@ -35,5 +35,6 @@ print(l)
 print(list1.count(7))
 #1
 
-#
+#sorted()
+l1=sorted(list1)
 
