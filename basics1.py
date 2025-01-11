@@ -33,5 +33,7 @@ print(l)
 
 #count
 print(list1.count(7))
-1
+#1
+
+#
 
