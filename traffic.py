@@ -2,7 +2,7 @@ import pygame
 import random
 import time
 
-# Initialize Pygame
+# Initializing the Pygame
 pygame.init()
 
 # Constants
