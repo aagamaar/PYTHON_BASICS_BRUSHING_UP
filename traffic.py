@@ -21,7 +21,7 @@ class TrafficLight:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.state = "red"  # Initialize as red
+        self.state = "red"  # Initializing as red
         self.last_switch_time = time.time()
         self.switch_interval = random.randint(2, 10)
 
