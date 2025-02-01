@@ -5,13 +5,13 @@ import time
 # Initializing the Pygame
 pygame.init()
 
-# Constants
+# Defining the Constants
 WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
 BACKGROUND_COLOR = (255, 255, 255)
 ROAD_COLOR = (0, 0, 0)
 
-# Creating the window
+# Creating the Window
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Traffic Simulation")
 
