@@ -16,6 +16,7 @@ screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Traffic Simulation")
 
 # Defining the classes for traffic lights, vehicles, roads, and intersections
+
 # TrafficLight class manages red or green state of a traffic light
 class TrafficLight:
     def __init__(self, x, y):
