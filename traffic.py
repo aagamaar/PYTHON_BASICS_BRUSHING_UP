@@ -15,7 +15,7 @@ ROAD_COLOR = (0, 0, 0)
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Traffic Simulation")
 
-# Define classes for traffic lights, vehicles, roads, and intersections
+# Defining the classes for traffic lights, vehicles, roads, and intersections
 
 class TrafficLight:
     def __init__(self, x, y):
