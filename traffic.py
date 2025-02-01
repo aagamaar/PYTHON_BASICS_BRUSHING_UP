@@ -11,7 +11,7 @@ WINDOW_HEIGHT = 600
 BACKGROUND_COLOR = (255, 255, 255)
 ROAD_COLOR = (0, 0, 0)
 
-# Create the window
+# Creating the window
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Traffic Simulation")
 
